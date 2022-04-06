@@ -1,0 +1,321 @@
+
+#nds-calculator {
+    margin-top: 30px;
+}
+
+
+.center_column {
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 850px;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+.korpus {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+    border: 6px solid #ad1;
+    background-color: #ebffb0;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 40px;
+}
+
+
+.knop_nastr {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.knop_nastr_krasn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #C80E00;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+hr {
+    border: none;
+    color: #333;
+    background-color: #333;
+    height: 2px;
+}
+
+.chrn_ar_16 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.chrn_ar_18 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.chrn_ar_26 {
+    font-size: 26px;
+    font-weight: normal;
+    color: #000000;
+}
+.chrn_ar_28 {
+    font-size: 28px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.chrn_ar_26_prav {
+    font-size: 26px;
+    font-weight: normal;
+    color: #000000;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.sin_ar_20_b {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.fon_otvet {
+    background-color: #FFF;
+    border: 1px solid #999;
+}
+
+.ser_ar_14 {
+    font-size: 14px;
+    color: #999;
+}
+
+.chrn_ar_16_b_otvet {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    word-spacing: -1px;
+    white-space: nowrap;
+}
+.chrn_ar_18_otvet {
+    font-size: 18px;
+    font-weight: normal;
+    color: #000000;
+    word-spacing: -1px;
+    white-space: nowrap;
+}
+
+.otvet_krasn {
+    font-size: 26px;
+    font-weight: bold;
+    color: #C80E00;
+    word-spacing: -2px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.otvet_krasn_ar_16_b {
+    font-size: 16px;
+    color: #C80E00;
+    font-weight: bold;
+    word-spacing: -1px;
+    white-space: nowrap;
+}
+
+.otvet_krasn_30 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #C80E00;
+    word-spacing: -2px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.tit-calc {
+    color: #000;
+    font-weight: 900;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+img {
+    height: auto;
+}
+.but_bl_bot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.hid {
+    display:none;
+}
+.inp_prop {
+    width:500px;
+}
+.ssil_result_bot {
+    width:300px;
+}
+@media all and (max-width:855px) {
+    .center_column {
+        width: 710px;
+    }
+
+}
+@media all and (max-width:720px) {
+    .but_bl_bot {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .but_bl_bot td {
+        display:block;
+        padding-top: 10px;
+
+    }
+    .top-bl {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align:center;
+        -ms-flex-align:center;
+        align-items:center;
+    }
+    .top-bl td {
+        margin-top: 10px;
+    }
+    .hid{
+        display:inline;
+    }
+    .unhid {
+        display:none;
+    }
+    .center_column {
+        width: 610px;
+        margin-left: 5px;
+        margin-right:5px;
+    }
+    #content {
+        display: block;
+    }
+    .okno {
+        width: 200px;
+    }
+    .un_left {
+        margin-left:150px;
+    }
+    .okno_bl {
+        width: 250px;
+    }
+    .fl_bl {
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-pack:center;
+        -ms-flex-pack:center;
+        justify-content:center;
+    }
+    .right_stav {
+        width: 90px;
+    }
+    .text_prop {
+        min-width: 74px;
+    }
+}
+@media all and (max-width:670px) {
+    .inp_prop {
+        width: 350px;
+    }
+    .center_column {
+        width: 500px;
+    }
+}
+@media all and (max-width:515px) {
+    .inp_prop {
+        width: 270px;
+    }
+    .center_column {
+        width: 435px;
+    }
+}
+@media all and (max-width:450px) {
+    .inp_prop {
+        width: 225px;
+        font-size:12px;
+    }
+    .text_prop {
+        font-size:13px;
+    }
+    .ssil_result_bot{
+        width: 230px;
+    }
+    .center_column {
+        width: 374px;
+    }
+}
+@media all and (max-width:400px) {
+    .inp_prop {
+        width: 201px;
+    }
+    .center_column {
+        width: 367px;
+    }
+}
+@media all and (max-width:376px){
+    .chrn_ar_28 {
+        font-size:21px;
+
+    }
+    .chrn_ar_18_otvet {
+        font-size:16px;
+    }
+    #ssil_chsl_prp{
+        font-size:13px;
+    }
+    .ssil_result_bot {
+        width: 180px;
+        font-size: 12px;
+    }
+    .sil_vich{
+        font-size:13px;
+    }
+    .inp_prop {
+        width: 140px;
+    }
+    .center_column {
+        width: 308px;
+    }
+
+}
